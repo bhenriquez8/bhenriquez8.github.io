@@ -35,3 +35,18 @@ div {
     width: 500px;
     margin: auto;
 }
+
+div a {
+    margin-top: 50%;
+    text-decoration: none;
+    background-color: #191;
+    color: white;
+    padding: 1em, 2em, 1em, 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 4px solid #333;
+}
+
+a:hover {
+    background-color: #1c1;
+}
