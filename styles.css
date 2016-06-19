@@ -1,7 +1,21 @@
+body {
+    background-color: #000004;
+}
+
 h1 {
     color: blue;
+    text-align: center;
+    background-color: rgb(255, 0, ,0);
+}
+
+h2 {
+    color: green;
+    text-align: center;
+    border-top: 4px double green;
+    border-bottom: 4px solid #eeeeee;
 }
 
 p {
     color: red;
+    border: 2px solid black;
 }
