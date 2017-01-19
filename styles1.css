@@ -50,6 +50,7 @@ nav a {
 
 #intro h2 {
     text-transform: uppercase;
+    text-shadow: 2px 2px 3px #333;
     font-size: 2em;
     margin-top: 0;
 }
@@ -99,6 +100,59 @@ nav a {
 
 #features li img {
     width: 200px;
+}
+
+#contact {
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+    background-color: #ddd;
+}
+
+#contact h1 {
+    text-align: center;
+    text-size: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+#contact form {
+    display: inline-block;
+    margin: 0 5.5em;
+}
+
+#contact form input {
+    display: block;
+    height: 20px;
+    width: 85%;
+    margin: 1.5em 5.5em 1.5em 0; 
+}
+
+#contact form textarea {
+    width: 85%;
+    margin: 1.5em 5.5em 1.5em 0;
+}
+
+#contact form button {
+    height: 40px;
+    width: 50px;
+    display: block;
+}
+
+#contact div {
+    display: inline-block;
+    margin: 0 5.5em;
+}
+
+#contact div p {
+    padding: 3em;
+    font-size: 20px;
+}
+
+.contact_stuff {
+    font-family: Arial;
+    color: #555;
+    margin-top: 0;
 }
 
 footer {
