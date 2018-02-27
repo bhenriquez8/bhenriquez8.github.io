@@ -138,3 +138,17 @@ footer li {
 footer p {
     margin-top: 40px;
 }
+
+@media all and (max-width: 450px) {
+    header,
+    #projects .box{
+        float:none;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    #showcase h1 {
+        margin-top:40px;
+    }
+}
