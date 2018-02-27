@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Droid Serif');
 :root {
     --header-color: #ffffff;
     --secondary-color: #e8491d;
@@ -61,8 +63,8 @@ header nav {
 
 /* Showcase */
 #showcase {
-    min-height: 500px;
-    background:url('../img/city.jpg') no-repeat 0 -400px;
+    min-height: 600px;
+    background:url('../img/Studious-background.jpg') no-repeat 0 -400px;
     background-size: 100%;
     text-align: center;
     color: var(--header-color);
@@ -81,6 +83,25 @@ header nav {
 /* Projects */
 #projects {
     margin-top:20px;
+}
+
+#projects div h2 {
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 48px;
+}
+
+#projects div p {
+    font-family: Droid Serif, Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+    color: #6c757d;
+    line-height: 19px;
+    margin-bottom: 25px;
 }
 
 #projects .box {
