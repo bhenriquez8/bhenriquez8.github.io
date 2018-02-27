@@ -64,7 +64,7 @@ header nav {
 /* Showcase */
 #showcase {
     min-height: 600px;
-    background:url('../img/Studious-background.jpg') no-repeat 0 -400px;
+    background:url('../img/Studious-background.jpeg') no-repeat 0 -400px;
     background-size: 100%;
     text-align: center;
     color: var(--header-color);
