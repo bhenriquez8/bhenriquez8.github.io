@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Droid Serif');
+
 :root {
     --header-color: #ffffff;
-    --secondary-color: #e8491d;
+    --secondary-color:#1b7d9c;
 }
 
 body {
@@ -83,6 +84,7 @@ header nav {
 /* Projects */
 #projects {
     margin-top:20px;
+    margin-bottom: 70px;
 }
 
 #projects div h2 {
@@ -116,9 +118,23 @@ header nav {
 }
 
 footer {
-    padding: 20px;
+    padding: 50px 20px 20px 20px;
     margin-top:20px;
     color: var(--main-color); 
     background-color: var(--secondary-color);
     text-align: center;
+}
+
+footer li {
+    display: inline;
+    padding: 1.1em 0.8em;
+    margin: 0 10px 0 10px;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    background-color: white;
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 40px;
 }
