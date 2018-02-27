@@ -142,11 +142,16 @@ footer p {
 
 @media all and (max-width: 450px) {
     header,
+    header nav,
+    header nav li,
     #projects .box{
         float:none;
         text-align: center;
         width: 100%;
-        padding-bottom: 20px;
+    }
+
+    header {
+        padding-bottom:20px;
     }
 
     #showcase h1 {
