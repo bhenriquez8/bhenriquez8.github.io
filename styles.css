@@ -4,11 +4,14 @@
 :root {
     --header-color: #ffffff;
     --secondary-color:#1b7d9c;
+    --showcase-big-font:55px;
+    --showcase-tiny-font:20px;
+    --main-font:15px;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: var(--main-font);
     line-height:1.5;
     padding: 0;
     margin: 0;
@@ -66,19 +69,20 @@ header nav {
 #showcase {
     min-height: 600px;
     background:url('../img/Studious-background.jpeg') no-repeat 0 -400px;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
     text-align: center;
     color: var(--header-color);
 }
 
 #showcase h1 {
     margin-top:100px;
-    font-size:55px;
+    font-size: var(--showcase-big-font);
     margin-bottom:10px;
 }
 
 #showcase p {
-    font-size:20px;
+    font-size: var(--showcase-tiny-font);
 }
 
 /* Projects */
@@ -140,6 +144,12 @@ footer p {
 }
 
 @media all and (max-width: 450px) {
+    :root {
+        --showcase-big-font: 35px;
+        --showcase-tiny-font: 15px;
+        --main-font: 13px;
+    }
+
     header,
     header nav,
     header nav li,
@@ -151,6 +161,10 @@ footer p {
 
     header {
         padding-bottom:20px;
+    }
+
+    #showcase {
+        min-height: 400px;
     }
 
     #showcase h1 {
