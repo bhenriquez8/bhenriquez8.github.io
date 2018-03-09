@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+:root {
+    --main-theme-color: #00842B;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: Raleway, Roboto;
+}
+
+/* Navbar section *************************************/
+.navbar{
+	background:var(--main-theme-color);
+}
+.nav-link , .navbar-brand{
+	color: #f4f4f4;
+	cursor: pointer;
+}
+.nav-link{
+	margin-right: 1em !important;
+}
+.nav-link:hover{
+	background: #f4f4f4;
+	color: var(--main-theme-color);
+
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+
+/*Header style******************************************/
+
+.header{
+	background-image: url("../img/headerback.jpeg");
+	background-size: cover;
+	background-position: center;
+    height: 100vh;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244,244,244, 0.65);
+}
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h1{
+    color:var(--main-theme-color);
+}
+
+.description p {
+    color:#666;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+}
+
+.description button {
+    border:1px solid var(--main-theme-color);
+    background:var(--main-theme-color);
+    color: #fff;
+}
+
+/* about section ******************************************/
+.about {
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+}
+
+.about h1{
+    color: var(--main-theme-color);
+    margin-bottom: 2em;
+}
+
+.about img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about span{
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+}
+
+.about .desc{
+    padding: 2em;
+    border-left:4px solid #10828C;
+}
+
+.about .desc h3{
+    color: #10828C;
+}
+.about p{
+    line-height: 2;
+    color: #888;
+}
+
+/* Portfolio section *******************************************/
+.portfolio {
+    margin: 4em 0;
+    position: relative;
+}
+
+.portfolio h1{
+    color: var(--main-theme-color);
+    margin-bottom: 2em;
+}
+
+.portfolio img{
+    height: 15rem;
+    width: 100%;
+    margin: 1em;
+}
+
+/* Contact form **********************************************/
+.contact-form{
+	margin: 6em 0;
+	position: relative;		
+}
+
+.contact-form h1{
+	padding:2em 1px;
+	color: var(--main-theme-color); 
+}
+.contact-form .right{
+	max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+	background:  var(--main-theme-color);
+	color: #fff;
+	border:0;
+}
+.contact-form .right .form-control::placeholder{
+	color: #888;
+	font-size: 16px;
+}
+
+/* Footer *********************************************/
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 10px;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    background-color:#292d31;
+}
