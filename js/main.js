@@ -12,7 +12,7 @@ $(document).ready(function() {
             let penPics = json["data"].length;
 
             for (var i=0; i<penPics; ++i) {
-                $("#codePens").append('<div class="col-lg-4 col-md-4 col-sm-12"><img src"'
+                $("#codePens").append('<div class="col-lg-4 col-md-4 col-sm-12"><img src="'
                 + json["data"][i].images["small"] + '" class="img-fluid"></div>');
             }
         }
