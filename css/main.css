@@ -11,7 +11,7 @@ body {
 }
 
 html,h1,h2,h3,h4,h5,h6,a{
-    font-family: Raleway, Roboto;
+    font-family: Raleway, Roboto, Arial, Helvetica, sans-serif;
 }
 
 /* Navbar section *************************************/
@@ -31,19 +31,19 @@ html,h1,h2,h3,h4,h5,h6,a{
 
 }
 .navbar-collapse{
- justify-content: flex-end;
+    justify-content: flex-end;
 }
 .navbar-toggler{
-  background:#fff !important;
+    background:var(--main-theme-color) !important;
 }
 
 /*Header style******************************************/
 
 .header{
+    position: relative;
 	background-image: url("../img/study-bg.jpeg");
 	background-size: cover;
 	background-position: center;
-    height: 100vh;
 }
 
 .overlay {
@@ -67,6 +67,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 }
 
 .description p {
+    margin-top: 10px;
     color:#666;
     font-size: 20px;
     width: 50%;
@@ -166,4 +167,16 @@ footer {
     height: 100%;
     width: 100%;
     background-color:#292d31;
+}
+
+@media and all(max-width: 600px) {
+    header h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    header h1 p {
+        font-size: 15px;
+        text-align: center;
+    }
 }
