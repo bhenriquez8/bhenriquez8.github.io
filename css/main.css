@@ -4,7 +4,9 @@
     --main-theme-color: #00842B;
 }
 
-body {
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
     padding: 0;
     margin: 0;
     background-color: #f4f4f4;
@@ -63,6 +65,8 @@ html,h1,h2,h3,h4,h5,h6,a{
 }
 
 .description h1{
+    font-family: Raleway;
+    font-size: 2.5rem;
     color:var(--main-theme-color);
 }
 
@@ -88,6 +92,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 }
 
 .about h1{
+    font-family: Raleway;
     color: var(--main-theme-color);
     margin-bottom: 2em;
 }
@@ -125,6 +130,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 }
 
 .portfolio h1{
+    font-family: Raleway;
     color: var(--main-theme-color);
     margin-bottom: 2em;
 }
@@ -142,6 +148,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 }
 
 .contact-form h1{
+    font-family: Raleway;
 	padding:2em 1px;
 	color: var(--main-theme-color); 
 }
@@ -169,14 +176,35 @@ footer {
     background-color:#292d31;
 }
 
-@media and all(max-width: 600px) {
-    header h1 {
-        font-size: 20px;
-        text-align: center;
+@media (max-width: 600px) {
+
+    .about .desc {
+        border-left: none;
     }
 
-    header h1 p {
-        font-size: 15px;
+    .about .desc h3 {
+        margin-top: 30px;
+    }
+
+    .description {
+        top: 17%;
+    }
+
+    .description p {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .description button {
+        position: relative;
+        left: 29.333%;
+    }
+
+    .portfolio img {
+        margin-left: 2px;
+    }
+
+    .contact-form h1 {
         text-align: center;
     }
 }
